@@ -1,0 +1,42 @@
+h3 {
+  font-size: 30px;
+  color: rgb(37, 37, 39);
+  font-weight: bold;
+  text-align: center;
+}
+
+div {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  background-color: #93b9cf;
+  border: 1px solid #3c019a;
+  border-radius: 5px;
+  padding: 9px;
+  width: 500px;
+  align-items: center;
+  border-left-width: 5px;
+  border-width: 3px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-left: 360px;
+}
+
+label {
+  align-items: center;
+  padding: 5px;
+  display: ruby-base;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+b {
+  font-weight: bold;
+}
+
+div > div {
+  margin: 10px 0;
+}

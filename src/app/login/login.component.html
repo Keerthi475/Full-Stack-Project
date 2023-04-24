@@ -1,0 +1,37 @@
+
+<form (ngSubmit)="checkLogin()">
+
+  <div *ngIf="invalidLogin" style="color: red;">
+
+    Incorrect username or password. Please check and try again.
+
+  </div>
+
+  <div *ngIf="loggedIn" style="color: green;">
+
+    Successfully logged in.
+
+  </div>
+
+  <label for="username">Username:</label>
+
+  <input type="text" id="username" name="username" [(ngModel)]="username" placeholder="Enter your username" minlength="6" maxlength="10" required><br><br>
+
+  <label for="password">Password:</label>
+
+  <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Enter your password" minlength="6" maxlength="10" required><br><br>
+
+  <button type="submit">Login</button>
+
+  <br> <br>
+
+  <a href="forgot-password"> Forgot Password</a>
+
+</form>
+
+<div class="signin">
+
+  Don't have an account? <a href="signup">Sign up</a>
+
+</div>
+

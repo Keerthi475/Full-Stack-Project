@@ -1,0 +1,55 @@
+
+  .container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -15px;
+  }
+
+  p{
+    color:rgb(20, 20, 20);
+    font-size: 20px;
+    font:bold;
+  }
+
+  form {
+    border: 2px solid #201e1e;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #161515;
+    font-size: 14px;
+  }
+
+  button {
+    background-color: #131414;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0069d9;
+  }
+

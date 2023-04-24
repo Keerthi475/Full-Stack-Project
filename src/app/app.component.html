@@ -1,0 +1,74 @@
+<!----
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark"> 
+  <ul class="navbar-nav"> 
+    <li class = "nav-item">
+      <a *ngIf="loginService.isUserLoggedIn()" routerLink="/airlines" class="nav-link">Airline List</a>
+
+    </li>
+  <li class = "nav-item">
+      <a *ngIf="loginService.isUserLoggedIn()" routerLink="/create-airline" class="nav-link">Add Airline</a>
+     
+    </li>
+  <li>
+      <a *ngIf="!loginService.isUserLoggedIn()" routerLink="/login" class="nav-link">Login</a>
+  </li>
+  <li>
+      <a *ngIf="loginService.isUserLoggedIn()" routerLink="/logout" class="nav-link">LogOut</a>
+  </li>    
+  </ul>
+</nav> 
+
+
+
+  <h1 class="text-center">{{title}}</h1> 
+
+  <div class ="container">
+  <router-outlet></router-outlet> -->
+
+
+  
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+      <div class="navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          <button *ngIf="loginService.isUserLoggedIn()" routerLink="/logout" class="btn btn-link nav-link">Logout</button>
+          <button *ngIf="loginService.isUserLoggedIn()" routerLink="/about-us"  class="btn btn-link nav-link">About Us</button>
+          <button *ngIf="loginService.isUserLoggedIn()" routerLink="/airlines" class="btn btn-link nav-link">Airline List</button>
+          <button *ngIf="loginService.isUserLoggedIn()" routerLink="/create-airline" class="btn btn-link nav-link">Add Airline</button>
+          <button *ngIf="!loginService.isUserLoggedIn()" routerLink="/login" class="btn btn-link nav-link">Login</button>
+          <button *ngIf="loginService.isUserLoggedIn()" routerLink="/home" class="btn btn-link nav-link">Home</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <h1 class="text-center">{{title}}</h1> 
+
+  <div class ="container">
+   
+  <router-outlet></router-outlet> 
+
+
+
+  
+
+
+ 
+  
+  
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+  
+        
