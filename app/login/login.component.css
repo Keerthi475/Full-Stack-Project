@@ -1,0 +1,70 @@
+
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      margin-right: 100px;
+      margin: 0 auto;
+      max-width: 400px;
+      border: 2px solid #181919;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(29, 214, 247, 0.927);
+      margin-top: 30px;
+      border-radius: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #18181a;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 2px solid #121213;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: 2px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: color 2s ease-in-out;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0c30e3;
+    }
+
+    div[style="color: red;"] {
+      color: #ff0000;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    div[style="color: green;"] {
+      color: #008000;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+   .signin{
+    color: #181717;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: color 60s ease;
+   }
+   
+   

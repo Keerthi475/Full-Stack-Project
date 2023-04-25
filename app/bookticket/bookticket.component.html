@@ -1,0 +1,52 @@
+<div class="col-md-6 offset-md-3">
+
+    <h3>Book a Flight</h3>
+    <form>
+        <div class="form-group"> 
+            <label> Airline Name </label> 
+            <input type="text" class ="form-control" id = "airlineName" 
+                [(ngModel)] = "airline.airlineName" name = "airlineName" readonly> 
+        </div> 
+
+        <div class="form-group">
+            <label>Source</label>
+            <input type="text" class="form-control" id="source"
+                   [(ngModel)]="airline.source" name="source" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Destination</label>
+            <input type="text" class="form-control" id="destination"
+                   [(ngModel)]="airline.destination" name="destination" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Seating Capacity</label>
+            <input type="number" class="form-control" id="seatingcapacity"
+                   [(ngModel)]="airline.seatingcapacity" name="seatingcapacity" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>cost</label>
+            <input type="number" class="form-control" id="cost"
+                   [(ngModel)]="airline.cost" name="cost" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>No of seats</label>
+            <input type="number" class="form-control" id="noofseats"
+                   [(ngModel)]="airline.noofseats" name="noofseats" min="1" max="50" >
+        </div>
+
+        <div class="form-group">
+            <label>Calculated price</label>
+            <input type="number" class="form-control" id="calculatedPrice"
+                   [(ngModel)]="airline.calculatedPrice" name="calculatedPrice" readonly>
+        </div>
+        
+        <button (click)="myFunction()" id="btn" >Update</button>
+    
+        <button class="btn btn-success" type="submit" (click)="onSubmit()"> Submit </button>
+      
+        </form>
+        </div>

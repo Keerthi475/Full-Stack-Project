@@ -1,0 +1,118 @@
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-left: 4px;
+  margin-right: 8px;
+  font: 1.2em sans-serif;;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #181818;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 60px;
+  }
+  
+  h2{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 530px;
+    margin-bottom:-5px;
+  }
+  .table th,
+  .table td {
+    padding: 3px 6px;
+    font-size: 18px;
+    font: bold;
+    text-align: center;
+    border: 1.5px solid #0f0d0d;
+  }
+  
+  .table th {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 18px;
+    background-color: #2f3ddc;
+    color: #ffffff;
+  }
+  
+
+  .btn {
+    border:1.5px solid #0f0d0d ;
+    color: rgba(255, 255, 255, 0.916);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: burlywood;
+    display: -moz-deck;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+  .btn-info {
+    border-radius: 25px;
+    background-color: #2ca2ca;
+  }
+  
+  .btn-danger {
+    border-radius: 25px;
+    background-color: #c7292b;
+  }
+   .btn-success{
+    border-radius:25px;
+    background-color: rgb(10, 99, 69);
+   }
+   .btn-link{
+    border-radius:25px;
+    background-color: rgb(222, 58, 181);
+   }
+
+   .btn-outline-secondary{
+    background-color: #121213;
+    font : white;
+    border-radius: 20px;
+   }
+  
+   .btn-outline-secondary:hover{
+    background-color: #4CAF50;
+   }
+   .btn-outline-primary{
+    margin-top:-45px;
+    background-color: #121213;
+    font : white;
+    border-radius: 20px;
+    margin-bottom: -45px;
+   }
+   .btn-outline-primary:hover{
+    background-color: #32e85a;
+   }

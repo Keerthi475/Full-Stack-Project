@@ -1,0 +1,52 @@
+
+  
+  h1 {
+    margin-top: 10px;
+    font-size: 26px;
+    margin-bottom:10px;
+  }
+  
+  h2 {
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+  }
+  
+  p {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font: bold;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-bottom: 3px;
+    padding-left: 200px;
+    margin-top: 5px;
+  }
+  
+  li {
+    font: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  
+  h2:first-of-type {
+    margin-top: 0;
+  }
+  
+  h2:nth-of-type(3) {
+    margin-top: 40px;
+  }
+  
+  h2:nth-of-type(5) {
+    margin-top: 40px;
+  }
+  
+  ul:last-of-type {
+    margin-bottom: 0;
+  }
+  

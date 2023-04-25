@@ -1,0 +1,49 @@
+
+<div class="col-md-6 offset-md-3">
+
+    <h3> Update Airline</h3>
+
+    <form (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label> Airline Name </label>
+            <input type="text" class="form-control" id="airlineName"
+                [(ngModel)]="airline.airlineName" name="airlineName" >
+        </div>
+
+        <div class="form-group">
+            <label> Seating Capacity </label>
+            <input type="text" class="form-control" id="seatingcapacity"
+                [(ngModel)]="airline.seatingcapacity" name="seatingcapacity" >
+        </div>
+
+        <div class="form-group">
+            <label> Source </label>
+            <input type="text" class="form-control" id="source"
+                [(ngModel)]="airline.source" name="source" >
+        </div>
+
+        <div class="form-group">
+            <label> Destination </label>
+            <input type="text" class="form-control" id="destination"
+                [(ngModel)]="airline.destination" name="destination" >
+        </div>
+
+        <div class="form-group">
+            <label> Cost </label>
+            <input type="text" class="form-control" id="cost"
+                [(ngModel)]="airline.cost" name="cost" >
+        </div>
+
+        <button class="btn btn-success" type="submit"> Submit </button>
+
+    </form>
+
+</div>
+
+
+
+
+
+
+    

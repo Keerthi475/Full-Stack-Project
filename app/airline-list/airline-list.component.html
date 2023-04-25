@@ -1,0 +1,54 @@
+  
+    
+   <div class="search-container">
+      <label for="search-airline">Search by Airline:</label>
+      <input type="text" id="search-airline" name="search-airline" placeholder="Enter airline name" [(ngModel)]="airlineName">
+      <button class="btn btn-outline-secondary" type="button"(click)="searchByName()">Search</button>
+  </div>
+  
+<button class="btn btn-outline-primary" type="button"(click)="fetchByInternationalAirline()">
+    International Airline
+</button>  
+
+<button class="btn btn-outline-primary" type="button"(click)="fetchByDomesticAirline()">
+    Domestic Airline
+</button>  
+
+<h2> Airline List </h2> 
+ <table class = "table table-striped"> 
+     <thead> 
+         <tr> 
+             <th> Airline Name </th> 
+             <th> Seating Capacity </th> 
+             <th> Source </th> 
+             <th> Destination </th> 
+             <th> Cost </th> 
+             <th> Actions </th> 
+         </tr> 
+     </thead> 
+     <tbody> 
+         <tr *ngFor = "let airline of airlines"> 
+             <td> {{ airline.airlineName }} </td> 
+             <td> {{ airline.seatingcapacity }} </td> 
+             <td> {{ airline.source }} </td> 
+             <td> {{ airline.destination }} </td> 
+             <td> {{ airline.cost }} </td> 
+             <td> 
+                 <button (click) = "updateAirline(airline.id)" class = "btn btn-info"> Update </button> 
+                 <button (click)="confirmDelete(airline)" class="btn btn-danger" style="margin-left: 10px"> Delete </button>
+                 <button (click) = "airlineDetails(airline.id)" class = "btn btn-link" style="margin-left: 10px"> View </button> 
+                 <button (click)="bookTicket(airline.id)" class="btn btn-success" style="margin-left: 10px"> Booking </button>  
+                </td> 
+            </tr> 
+            <tr *ngIf="airlines.length!==0">
+                <button class="m-3 btn btn-sm btn-danger" (click)="removeAllAirs()">
+                    Remove All
+                </button>
+             </tr>
+             <tr scope="row" *ngIf="airlines.length === 0">
+                <td colspan="4" class="text-center">No record found</td>  
+         </tr>
+        </tbody> 
+    </table>      
+
+

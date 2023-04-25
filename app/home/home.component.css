@@ -1,0 +1,94 @@
+
+  
+  .jumbotron h1 {margin-left: 490px;
+    font-weight: 40px;
+    margin-top: 10px;
+  }
+  
+  .jumbotron p {
+    margin-top: -10px;
+    margin-left: 250px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .form-row {
+    margin-top: 20px;
+  }
+  
+  .form-row label { 
+    margin-left: 500px;
+    font-size: 18px;
+    font-weight: 30;
+  }
+  
+  .form-control {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    background-color: rgba(193, 227, 240, 0.9);
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: 15px;
+    margin-left: 550px;
+    font-size: 15px;
+    font-weight: 50;
+    padding: 3px;
+    border-radius: 0;
+    background-color: #f5f8f4;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: hsl(193, 81%, 50%);
+  }
+  
+  
+  .col-md-2 {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    text-align: center;
+    background-color: #d0dfe6;
+    border-radius: 0.5rem;
+    margin-bottom: -10px;
+  }
+  
+  .col-md-2 h2 {
+    font-size: 1.5rem;
+    font-weight: 50;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .col-md-2 p {
+    font-size: 1.1rem;
+   margin-bottom:10px;
+   margin-top: 5px;
+  }
+  
+  .btn-secondary {
+    font-size: 18px;
+    font-weight: 50;
+    padding: 3px;
+    border-radius: 0;
+    background-color: #afdeec;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #0c0c0e;
+  }
+  
+
+  
